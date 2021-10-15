@@ -1,13 +1,20 @@
 import './App.css';
+import logo from './github2.png';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>DevPapi</h1>
-        <p>Website Portfolio coming soon!</p>
-      </header>
+    <header>
+    </header>
+    <body>
+      <h1>DevPapi</h1>
+      <h5>Website coming soon..</h5>
+    </body>
+
+
     </div>
+
+
   );
 }
 

@@ -2,9 +2,18 @@
   text-align: center;
 }
 
+.nav{
+  padding: 0.5%;
+  border-bottom: 0.1em rgb(6, 167, 241) solid;
+}
 
-body h1, h5{
-  color: rgb(167, 167, 167);
+body{
+  padding: 0 10%;
+}
+
+
+body h2, h5{
+  color: rgb(6, 167, 241);
   margin: 1%;
 }
 

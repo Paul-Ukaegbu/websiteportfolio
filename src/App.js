@@ -7,7 +7,9 @@ function App() {
     <header>
     </header>
     <body>
-      <h1>DevPapi</h1>
+      <div className = "nav">
+        <h2>Devpapi</h2>
+      </div>
       <h5>Website coming soon..</h5>
     </body>
 

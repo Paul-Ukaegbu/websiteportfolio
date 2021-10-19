@@ -12,14 +12,14 @@ function App() {
     <body>
       <div className = "nav">
         <h2>DEVPAPI</h2>
-        {/* <img className="navlinks" src={github}/>
-        <img className="navlinks" src={linkedin}/> */}
       </div>
 
       <div className="container text-center">
         <div className="row">
           <div id= "aboutMe" className="col">
-            <p className= "aboutMe">Hi! my name is <span>Paul Ukaegbu</span> and I am a full-stack developer.</p>
+            <p className= "aboutMe">Hi! my name is <span>Paul Ukaegbu</span> and I am a <span>full-stack developer.</span></p>
+            <img className="navlinks" src={github}/>
+            <img className="navlinks" src={linkedin}/>
           </div>
           <div className="col">
             <img className="images" src={dev3}/>

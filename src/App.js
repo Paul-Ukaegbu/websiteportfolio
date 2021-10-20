@@ -4,11 +4,10 @@ import linkedin from './linkedin.png';
 import dev from './dev2.png';
 import dev3 from './dev3.png';
 
+
 function App() {
   return (
     <div className="App">
-    <header>
-    </header>
     <body>
       <div className = "nav">
         <h2>DEVPAPI</h2>

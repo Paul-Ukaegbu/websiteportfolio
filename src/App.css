@@ -9,9 +9,28 @@
   margin: 0;
   padding: 0;
   padding: 0.5%;
-  /* border-bottom: 0.1em rgb(74, 193, 248) solid; */
+  border-bottom: 0.1em rgb(252, 252, 252) solid;
   display: flex;
   align-items: center;
+  width: 10ch;
+  animation: typing 2s steps(20), blink .6s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }
 
 .navlinks{
@@ -26,7 +45,7 @@
 }
 
 body{
-  padding: 0 5%;
+  padding: 0 3%;
 }
 
 .images{
@@ -34,8 +53,8 @@ body{
 }
 
 .nav h2{
-  text-shadow: 2px 2px rgba(255, 253, 253, 0.397);
-  box-shadow: 20px 20px rgba(9, 175, 252, 0.425);
+  text-shadow: 2px 2px rgba(255, 255, 255, 0);
+  /* box-shadow: 20px 20px rgba(9, 175, 252, 0.425); */
 }
 
 
@@ -53,12 +72,12 @@ span{
 .aboutMe{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: whitesmoke;
-  margin: 1%;
+  margin: 2%;
   font-size: xx-large;
 }
 
 #aboutMe{
-  padding-top: 20%;
+  padding: 20% 0;
   text-align: center;
 }
 button{
@@ -77,8 +96,10 @@ a:hover{
 .bodyMobile{
   display: none;
 }
-
 }
+
+/* typewriter effect */
+
 
 
 /* phone version */
@@ -92,7 +113,7 @@ a:hover{
   .nav{
     display: none;
   }
-  
+
   .aboutMe{
     margin-bottom: 30%;
     max-width: 100%;

@@ -98,6 +98,15 @@ a:hover{
 }
 }
 
+.wrapper{
+  margin: 0 15%;
+}
+
+footer{
+  margin: 2%;
+  color: white;
+}
+
 /* typewriter effect */
 
 

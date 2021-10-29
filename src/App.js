@@ -14,6 +14,7 @@ function App() {
         <h2>DEVPAPI</h2>
       </div>
 
+    <div className = "wrapper">
       <div className = "body">
       <div className="container text-center">
         <div className="row">
@@ -82,8 +83,12 @@ function App() {
           </div>
         </div>
       </div>
-
+    </div>
     </body>
+
+    <footer>
+      <p>Copyright &copy; Paul Ukaegbu</p>
+    </footer>
     </div>
 
 

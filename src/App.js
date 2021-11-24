@@ -24,8 +24,8 @@ function App() {
             <p className= "aboutMe">Hi! My name is <span>Paul Ukaegbu</span> and I am a <span>full-stack developer.</span></p>
             {/* <img className="navlinks" src={github}/>
             <img className="navlinks" src={linkedin}/> */}
-            <button type="button" class="btn btn-outline-info"><a href={"https://www.linkedin.com/in/paulukaegbu/"} target="_blank">Linkedin</a></button>
-            <button type="button" class="btn btn-outline-info"><a href={"https://github.com/Paul-Ukaegbu"} target="_blank">Github</a></button>            
+            <a href={"https://www.linkedin.com/in/paulukaegbu/"} target="_blank"><button type="button" class="btn btn-outline-info">Linkedin</button></a>
+            <a href={"https://github.com/Paul-Ukaegbu"} target="_blank"><button type="button" class="btn btn-outline-info">Github</button></a>          
           </div>
           <div className="col">
             <img className="images" src={dev3}/>

@@ -14,8 +14,8 @@ function App() {
 
       <div className = "nav">
         <h2>DEVPAPI</h2>
-      </div>
-
+        </div>
+      
     <div className = "wrapper">
       <div className = "body">
       <div className="container text-center">
